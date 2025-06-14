@@ -2,9 +2,12 @@ package edu.kis.vh.nursery;
 
 public class defaultCountingOutRhymer {
 
-    private int[] NUMBERS = new int[12];
+    static final int numbers_size = 12;
+    static final int total_base_value = -1;
+    
+    private int[] NUMBERS = new int[numbers_size];
 
-    public int total = -1;
+    public int total = total_base_value;
 
     public void countIn(int in) {
         if (!isFull())
@@ -12,7 +15,7 @@ public class defaultCountingOutRhymer {
     }
 
         public boolean callCheck() {
-            return total == -1;
+            return total == total_base_value;
         }
         
             public boolean isFull() {
