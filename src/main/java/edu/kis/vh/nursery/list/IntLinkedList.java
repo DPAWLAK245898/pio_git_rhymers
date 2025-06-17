@@ -12,6 +12,7 @@ public class IntLinkedList {
     /** Ostatni dodany element stosu */
     private Node last;
 
+    //TODO: usunąć nieużywaną zmienną i
     private int i;
 
     /** Dodanie elementu na szczyt stosu
@@ -43,6 +44,8 @@ public class IntLinkedList {
      * @return false, ponieważ lista jest dynamiczna i nie ma maksymalnego rozmiaru
      *
      * */
+
+    //TODO: Czy metoda, która zawsze zwraca false jest przydatna?
     public boolean isFull() {
         return false;
     }

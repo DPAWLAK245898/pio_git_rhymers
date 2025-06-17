@@ -1,5 +1,6 @@
 package edu.kis.vh.nursery;
 
+//TODO: usunąć nieużywane importy
 import edu.kis.vh.nursery.defaultCountingOutRhymer;
 import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
