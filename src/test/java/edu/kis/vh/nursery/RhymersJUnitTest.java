@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+//Projekt poprawny
 public class RhymersJUnitTest {
 
     @Test
@@ -19,6 +19,8 @@ public class RhymersJUnitTest {
     public void testCallCheck() {
         defaultCountingOutRhymer rhymer = new defaultCountingOutRhymer();
         boolean result = rhymer.callCheck();
+
+        //TODO: Zmienić assertEquals na assertTrue
         Assert.assertEquals(true, result);
 
         rhymer.countIn(888);
