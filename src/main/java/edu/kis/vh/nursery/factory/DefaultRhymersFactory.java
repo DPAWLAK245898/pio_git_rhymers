@@ -7,7 +7,7 @@ import edu.kis.vh.nursery.HanoiRhymer;
 //TODO: usunąć nieużywany import
 
 
-public class DefaultRhymersFactory implements Rhymersfactory {
+public class DefaultRhymersFactory implements RhymersFactory {
 
     @Override
     public DefaultCountingOutRhymer getStandardRhymer() {
